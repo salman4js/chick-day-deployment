@@ -1,3 +1,14 @@
+:root {
+  --primary-white : #fff;
+  --primary-blue : #1E90FF;
+  --primary-dark : rgba(255,255,255,0);
+  --primary-darkblue : #191970;
+  --primary-royalblue : rgb(102,178,255);
+  --primary-orange : #f9ab00;
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +47,161 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar-nav > li > a {
+  margin-right: 1rem;
+  margin-left : 1rem;
+  border-top : 1rem solid var(--primary-dark);
+  
+}
+
+.navbar-nav > li > a:hover {
+  transform: scale(1);
+  border-top : 0.1875rem solid var(--primary-blue)
+}
+
+.header-wrapper{
+  background-color: aliceblue;
+}
+
+.typed-text{
+  font-size : 1.9rem;
+  font-weight : bold;
+}
+
+
+.browse-wrapper{
+  margin-top: 5rem;
+}
+
+.browse-name{
+  margin-top : 2rem;
+}
+
+.browse-title{
+  font-size: 1.4rem;
+  font-weight: bold;
+  color : red;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.card{
+  width : 18rem;
+  height : 16rem;
+}
+
+
+.card:hover{
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.724);
+  transform: scale(1.1)
+}
+
+.cardP{
+  width : 18rem;
+  height : 22rem;
+  border : 1px solid rgb(33,37,41);
+  border-width : 0.5px;
+}
+
+
+.card-title {
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+
+.card-text {
+  font-size : 1.2rem;
+  font-weight : bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.col-sm-6{
+  margin-bottom : 2rem;
+}
+
+.col-sm-4{
+  margin-bottom : 2rem;
+}
+
+.card-img-top{
+  width : 18rem;
+  height : 12rem;
+}
+
+.modal-header {
+  font-size: 1.2rem;
+  font-weight : 700;
+  font-style: oblique;
+}
+
+.a-sub{
+  font-size : 1.2rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.a-desc{
+  font-weight : bold;
+  font-family : Arial, Helvetica, sans-serif;
+  font-size : 1.2rem;
+}
+
+.c-desc{
+  font-weight : bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size : 1.2rem;
+  text-align : center;
+}
+
+.sent{
+  margin-top : 2rem;
+  margin-bottom : 2rem;
+  font-size: 1.2rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  text-align : center;
+  color : red;
+}
+
+.chickdayUpdatedLogo{
+  margin-bottom: 2rem;
+}
+
+.g-sub{
+  margin : 2rem;
+  text-decoration : underline;
+  margin-top : 1.2rem;
+  color : black;
+  font-size : 1.2rem;
+  font-weight : bold;
+  font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.g-subpara{
+  margin : 2rem;
+  color : black;
+  font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight : italic;
+  font-size : 1.2rem;
+}
+
+.getintouch {
+  margin-top : 1.2rem;
+  background-color: aliceblue;
+  margin-bottom : 2rem;
+
+}
+
+
+
+
+
